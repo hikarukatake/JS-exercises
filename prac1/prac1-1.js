@@ -1,15 +1,14 @@
 `use strict`
 height = window.prompt("あなたの身長は何センチ？");
-if ( height >= 100) {
+if (height >= 100) {
     ticket = window.confirm("プレミアムチケットを持っていますか？");
-}else if (height >= 90) {
+} if (height >= 90) {
     window.alert("保護者同伴ならいける");
-} else if (height >= "") {
+} if (height = "") {
     window.alert("入力がないと判定できません")
-} else if (height.match(/^[0-9]+$/)) {
-    window.alert("半角数値でかきなさい")
+} if (height.match(/^[0-9]+$/)) {
 } else {
-    window.alert("乗車できません")
+    window.alert("半角数値でかきなさい")
 }
 
 if (ticket === true) {
